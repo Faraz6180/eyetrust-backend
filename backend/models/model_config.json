@@ -1,0 +1,18 @@
+{
+  "input_size": 224,
+  "classes": [
+    "Cataract",
+    "Conjunctivitis",
+    "Eyelid",
+    "Normal",
+    "Uveitis"
+  ],
+  "num_classes": 5,
+  "architecture": "MobileNetV2",
+  "preprocessing": {
+    "rescale": "1/255.0",
+    "method": "divide by 255"
+  },
+  "threshold": 0.5,
+  "model_file": "eyetrust_mobilenetv2.h5"
+}
